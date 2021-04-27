@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/loginpage.css">
+    <title>Politico | LogIn</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-area">
+            <h3 id="logo">Politico</h3>
+            <h1 id="welcome-note">Welcome Page</h1>
+            <h5 id="sign-in-note">Sign in To continue Access</h5>
+            <hr style="width: 90%;margin:auto;height:1px;background-color:white;border:none;margin-top:10vh;">
+            <div class="button"><a href="/signup.hbs"><button>Create An Account</button></a></div>
+            <h5 id="site">www.politico.com</h5>
+        </div>
+        <div class="sign-in-area">
+            <h2>Sign In</h2>
+            <form action="loginPage.hbs" method="POST">
+                <input type="email" id="email" placeholder="Enter Email">
+                <input type="password" id="password" placeholder="Enter password">
+                <input type="submit" value="Sign In" id="sign-in-button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
